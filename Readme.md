@@ -11,5 +11,5 @@ Run the following commands:
 `python3 manage.py startapp attendance`
 In `mysite1/settings.py` add `attendance` in the `INSTALLED_APPS` list
 run `python3 manage.py createsuperuser` to create a new admin user
-After modifying the models.py file, run `python3 manage.py makemigrations attendance`,
+After modifying the models.py file, run `python3 manage.py makemigrations`, which can be skipped first
 followed by `python3 manage.py migrate`
